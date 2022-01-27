@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "medical-kit",
+  "version": "${version}",
+
+  "name": "Medical Kit",
+  "description": "The mod add some kinds of useful medical kits.",
+  "authors": [
+    "asablock"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": "https://github.com/asablock/medical-kit"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/medical-kit/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.asablock.MedicalKitMod"
+    ]
+  },
+  "mixins": [
+    "medical-kit.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "fabric": ">=0.40.0",
+    "minecraft": "1.16.5",
+    "java": ">=8"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
