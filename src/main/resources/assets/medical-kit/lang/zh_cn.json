@@ -1,0 +1,11 @@
+{
+  "itemGroup.medical-kit.item_group": "医疗包",
+
+  "block.medical-kit.cotton": "棉花",
+
+  "item.medical-kit.cotton_seeds": "棉花种子",
+  "item.medical-kit.cotton_wad": "棉花团",
+  "item.medical-kit.bandage_1": "1级绷带",
+  "item.medical-kit.bandage_2": "2级绷带",
+  "item.medical-kit.bandage_3": "3级绷带"
+}

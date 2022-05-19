@@ -1,0 +1,11 @@
+{
+  "itemGroup.medical-kit.item_group": "Medical Kit",
+
+  "block.medical-kit.cotton": "Cotton",
+
+  "item.medical-kit.cotton_seeds": "Cotton Seeds",
+  "item.medical-kit.cotton_wad": "Cotton Wad",
+  "item.medical-kit.bandage_1": "Bandage Level 1",
+  "item.medical-kit.bandage_2": "Bandage Level 2",
+  "item.medical-kit.bandage_3": "Bandage Level 3"
+}

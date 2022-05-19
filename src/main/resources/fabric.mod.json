@@ -20,6 +20,9 @@
   "entrypoints": {
     "main": [
       "io.github.asablock.MedicalKitMod"
+    ],
+    "client": [
+      "io.github.asablock.client.ClientMedicalKitMod"
     ]
   },
   "mixins": [
