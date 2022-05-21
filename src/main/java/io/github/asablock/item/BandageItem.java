@@ -1,12 +1,10 @@
 package io.github.asablock.item;
 
-import net.fabricmc.loader.api.FabricLoader;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
-import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.text.Text;
 import net.minecraft.text.TranslatableText;
 import net.minecraft.util.ActionResult;
@@ -30,7 +28,7 @@ public class BandageItem extends Item {
         ItemStack stack = user.getStackInHand(hand);
         if (user.getHealth() < user.getMaxHealth()) {
             user.heal(3.7F * (level + 1));
-            damage(stack, user);
+            damage(stack, user, hand);
             user.getItemCooldownManager().set(this, 200 * (level + 1));
             return TypedActionResult.success(stack);
         } else {
@@ -38,8 +36,8 @@ public class BandageItem extends Item {
         }
     }
 
-    private void damage(ItemStack stack, PlayerEntity user) {
-        stack.damage(1, user, u -> {});
+    private void damage(ItemStack stack, PlayerEntity user, Hand hand) {
+        stack.damage(1, user, u -> u.sendToolBreakStatus(hand));
     }
 
     @Override
@@ -51,7 +49,7 @@ public class BandageItem extends Item {
     @Override
     public ActionResult useOnEntity(ItemStack stack, PlayerEntity user, LivingEntity entity, Hand hand) {
         entity.heal(3.7F * (level + 1));
-        damage(stack, user);
+        damage(stack, user, hand);
         user.getItemCooldownManager().set(this, 200 * (level + 1));
         return ActionResult.SUCCESS;
     }

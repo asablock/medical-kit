@@ -9,7 +9,7 @@
     "description": {
       "translate": "advancements.medical-kit.root.description"
     },
-    "background": "medical-kit:gui/advancements/background.png"
+    "background": "medical-kit:textures/gui/advancements/background.png"
   },
   "criteria": {
     "get_cotton_seeds": {

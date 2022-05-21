@@ -4,6 +4,7 @@
   "package": "io.github.asablock.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
+    "ItemsPumpkinMixin"
   ],
   "client": [
   ],
