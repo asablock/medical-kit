@@ -7,5 +7,17 @@
   "item.medical-kit.cotton_wad": "Cotton Wad",
   "item.medical-kit.bandage_1": "Bandage Level 1",
   "item.medical-kit.bandage_2": "Bandage Level 2",
-  "item.medical-kit.bandage_3": "Bandage Level 3"
+  "item.medical-kit.bandage_3": "Bandage Level 3",
+
+  "bandage.cooldown": "Cooldown: %d seconds",
+  "bandage.heal": "Heal %d hearts when use",
+
+  "advancements.medical-kit.root.title": "Cottons!",
+  "advancements.medical-kit.root.description": "Get cotton seeds from yellow wild cottons",
+  "advancements.medical-kit.collect_cotton_wad.title": "It's a Harvest Time",
+  "advancements.medical-kit.collect_cotton_wad.description": "Collect cotton wads from a ripe cotton plant",
+  "advancements.medical-kit.craft_bandage.title": "Bandage the Saver",
+  "advancements.medical-kit.craft_bandage.description": "Craft a bandage with 4 or more cotton wads",
+  "advancements.medical-kit.use_bandage_to_entity.title": "Help Each Other",
+  "advancements.medical-kit.use_bandage_to_entity.description": "Heal your friend with a bandage"
 }

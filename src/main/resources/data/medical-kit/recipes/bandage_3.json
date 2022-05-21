@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "medical-kit:cotton_wad"
+    }
+  },
+  "result": {
+    "item": "medical-kit:bandage_3"
+  }
+}

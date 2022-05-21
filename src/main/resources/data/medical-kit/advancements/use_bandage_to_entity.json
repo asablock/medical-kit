@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "medical-kit:bandage_1"
+    },
+    "title": {
+      "translate": "advancements.medical-kit.use_bandage_to_entity.title"
+    },
+    "description": {
+      "translate": "advancements.medical-kit.use_bandage_to_entity.description"
+    }
+  },
+  "parent": "medical-kit:craft_bandage",
+  "criteria": {
+    "use_bandage": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "tag": "medical-kit:bandages"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "use_bandage"
+    ]
+  ]
+}

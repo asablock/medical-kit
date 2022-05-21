@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "medical-kit:bandage_1",
+    "medical-kit:bandage_2",
+    "medical-kit:bandage_3"
+  ]
+}

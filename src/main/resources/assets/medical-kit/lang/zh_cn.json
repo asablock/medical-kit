@@ -7,5 +7,17 @@
   "item.medical-kit.cotton_wad": "棉花团",
   "item.medical-kit.bandage_1": "1级绷带",
   "item.medical-kit.bandage_2": "2级绷带",
-  "item.medical-kit.bandage_3": "3级绷带"
+  "item.medical-kit.bandage_3": "3级绷带",
+
+  "bandage.cooldown": "冷却时间: %d秒",
+  "bandage.heal": "使用后回复%d颗心",
+
+  "advancements.medical-kit.root.title": "这是？棉花！",
+  "advancements.medical-kit.root.description": "从黄色的野生棉花中获得棉花种子",
+  "advancements.medical-kit.collect_cotton_wad.title": "丰收时间到！",
+  "advancements.medical-kit.collect_cotton_wad.description": "从成熟的棉花上收集棉花团",
+  "advancements.medical-kit.craft_bandage.title": "救命绷带",
+  "advancements.medical-kit.craft_bandage.description": "用4个或更多的棉花团做一卷绷带",
+  "advancements.medical-kit.use_bandage_to_entity.title": "互帮互助",
+  "advancements.medical-kit.use_bandage_to_entity.description": "用绷带治疗你的朋友"
 }
